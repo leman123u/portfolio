@@ -15,3 +15,5 @@ $ java -jar change.my.name.jar
 
 1. Spring Boot
 2. Java 17
+3. Groovy 4
+4. Spock
