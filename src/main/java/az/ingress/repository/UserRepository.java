@@ -1,4 +1,7 @@
 package az.ingress.repository;
 
-public class UserRepository {
+import az.ingress.entity.UserEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepository extends JpaRepository<UserEntity, Long  > {
 }

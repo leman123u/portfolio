@@ -1,6 +1,6 @@
 package az.ingress.controller
 
-import az.ingress.exception.ErrorHandler
+
 import org.springframework.test.web.servlet.MockMvc
 import org.springframework.test.web.servlet.setup.MockMvcBuilders
 import spock.lang.Specification

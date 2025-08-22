@@ -1,4 +1,7 @@
 package az.ingress.repository;
 
-public interface BlogRepository {
+import az.ingress.entity.BlogEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface BlogRepository extends JpaRepository<BlogEntity,Long > {
 }
